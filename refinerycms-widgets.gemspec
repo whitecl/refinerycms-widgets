@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.require_paths     = %w(lib)
   s.files             = Dir["{app,config,db,lib}/**/*"] + ["readme.md"]
   s.authors           = ['Chris Reister (chrisftw)']
-  s.emails            = ['creister@enmasse.com']
+  s.email             = 'creister@enmasse.com'
   s.homepage          = 'https://github.com/enmasse-entertainment/refinerycms-widgets'
 
   # Runtime dependencies

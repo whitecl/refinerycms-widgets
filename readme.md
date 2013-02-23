@@ -20,14 +20,14 @@ If this is TOO MUCH for you consider the [refinerycms-copywriting](https://githu
 Refinery CMS 2.0 or higher
 
 ## Install the widgets gem
-In your gemfile include:
+In your Gemfile include:
 
     gem "refinerycms-widgets"
 
 Now on the command line install your gem with bundle, and generate the widgets extension into your app.
 
     bundle install
-    rails generate refinery:widgets
+    bundle exec rails generate refinery:widgets
 
 ## Configuration changes needed
 We have to allow the widget tag in the WYM editor.  RefineryCMS has an config option for us.
