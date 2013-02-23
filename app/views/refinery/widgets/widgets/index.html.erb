@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="widgets">
+    <% @widgets.each do |widget| %>
+      <li>
+        <%= link_to widget.name, refinery.widgets_widget_path(widget) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>
