@@ -3,13 +3,15 @@
 Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.name              = 'refinerycms-widgets'
-  s.version           = '0.1'
+  s.version           = '0.1.1'
   s.description       = 'Ruby on Rails Widgets extension for Refinery CMS'
   s.date              = '2013-02-22'
   s.summary           = 'Widgets extension for Refinery CMS'
   s.require_paths     = %w(lib)
   s.files             = Dir["{app,config,db,lib}/**/*"] + ["readme.md"]
   s.authors           = ['Chris Reister (chrisftw)']
+  s.emails            = ['creister@enmasse.com']
+  s.homepage          = 'https://github.com/enmasse-entertainment/refinerycms-widgets'
 
   # Runtime dependencies
   s.add_dependency             'refinerycms-core',    '>= 2.0.0'
